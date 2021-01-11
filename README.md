@@ -1,10 +1,16 @@
 # bookmarks
 
 
-![Logo](img/ilustracao.png)
+<p align="center">
+  <img src="img/ilustracao-bookmark.png"><br>
+  Uma lista de bookmarks, links e marcadores de conteúdo livre e OpenSource
+</p>
 
+## Como acessar ?
 
-Uma lista de bookmarks, links e marcadores de conteúdo livre e OpenSource
+Git Pages Site disponível em https://quetaldessejeito.github.io/bookmarks/. 
 
+## Contato
 
-GitPages Site disponível em https://quetaldessejeito.github.io/bookmarks/. 
+- [Instagram](https://instagram.com/quetaldessejeito)
+
