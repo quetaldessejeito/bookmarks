@@ -41,6 +41,20 @@ h6 {
   font-weight: 700;
 }
 
+.menu{
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0px;
+  padding-left: 8px;
+  list-style-type:none;
+  color: #343a40!important;
+}
+
+.menu a{
+  color: #343a40!important;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -299,6 +313,19 @@ h6 {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
+
+ 
+
+}
+
+@media (max-width: 450px) {
+
+  #brandlogo{
+    top: calc(100% - 200px);
+    left: calc(100% - 110px) !important;
+
+  }
+
 }
 
 .map iframe {
@@ -457,7 +484,7 @@ a:hover, a:focus, a:active {
 #brandlogo{
   position: absolute;
   top: calc(100% - 200px);
-  left: calc(100% - 200px);
+  left: calc(100% - 160px);
   opacity: 0.6;
   z-index: 100;
 }
@@ -465,4 +492,8 @@ a:hover, a:focus, a:active {
 .img-fluid{
   background-color: transparent !important;
   border: none;
+}
+
+.text-white:before{
+  color:white;
 }

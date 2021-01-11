@@ -28,10 +28,11 @@
       <h1 class="mb-0 headertitale">Bookmarks</h1>
       <h2 class="mb-1 ">Marcadores & Links úteis</h2>
       <div class="mt-4">
-        <h3 class="mb-1 ml-1">
-          <a class="text-dark" href="#p1"><i class=" mr-1 fa fa-arrow-right"></i> Artigos</a>
-        </h3>
-        <img id="brandlogo" src="img/icone.png" width="200px">
+        <ul class="menu">
+          <li><a href="#p1"><i class=" mr-1 fa fa-arrow-right"></i> Artigos</a></li>
+          <li><a href="#p2"><i class=" mr-1 fa fa-arrow-right"></i> Ferramentas</a></li>
+        </ul>  
+        <img id="brandlogo" src="img/icone.svg" width="100px">
       </div>
     </div>
     <div class="overlay"></div>
@@ -42,17 +43,15 @@
     <div class="container ">
       <div class="row">
         <div class="content-section-heading ">
-          <h1 class="text-secondary  mb-0 ">Artigos</h1>
+          <h1 class="text-secondary ml-3 mb-0 ">Artigos</h1>
         </div>
       </div>
       <div class="row no-gutters mt-2">
-        
         <div class="col-4">
           <a href="http://www.coli.uni-saarland.de/courses/agentinteraction/contents/papers/Heider44.pdf">
-            <img class="img-fluid img-thumbnail" src="img/heider_e_simmel (Personalizado).png" width="250px">
+            <img class="img-fluid img-thumbnail" src="img/heider_e_simmel.png" width="250px">
           </a>
         </div>
-
         <div class="col text-left">
           <h3 class="mb-0">Heider e Simmel</h3>
           <p>Um estudo experimental de comportamento aparente
@@ -65,6 +64,34 @@
       </div>
     </div>
   </section>
+
+    <!-- Ferramentas -->
+    <section class="content-section bg-primary" id="p2">
+      <div class="container ">
+        <div class="row">
+          <div class="content-section-heading ">
+            <h1 class="text-secondary ml-3 mb-0 ">Ferramentas</h1>
+          </div>
+        </div>
+        <div class="row no-gutters mt-2">
+          <div class="col-4">
+            <a href="https://www.photopea.com/">
+              <img class="img-fluid img-thumbnail" src="img/photopea.png" width="250px">
+            </a>
+          </div>
+          <div class="col text-left">
+            <h3 class="mb-0">Photopea</h3>
+            <p>Um  programa online,
+              gratuito, com interface extremamente similar ao Photoshop  e que roda no seu navegador
+              <a class="text-dark"
+                href="https://www.photopea.com/">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
   <!-- Footer -->
   <footer class="footer bg-black text-center">
@@ -81,7 +108,7 @@
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="http://twitter.com/qtaldessejeito">
+          <a class="social-link rounded-circle" href="http://twitter.com/qtaldessejeito">
             <i class="text-white icon-social-twitter"></i>
           </a>
         </li>
