@@ -479,3 +479,7 @@ a:hover, a:focus, a:active {
   background-color: transparent !important;
   border: none;
 }
+
+.text-white:before{
+  color:white;
+}
