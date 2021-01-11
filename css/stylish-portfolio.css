@@ -41,6 +41,20 @@ h6 {
   font-weight: 700;
 }
 
+.menu{
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0px;
+  padding-left: 8px;
+  list-style-type:none;
+  color: #343a40!important;
+}
+
+.menu a{
+  color: #343a40!important;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
