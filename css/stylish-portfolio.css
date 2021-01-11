@@ -299,6 +299,19 @@ h6 {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
+
+ 
+
+}
+
+@media (max-width: 450px) {
+
+  #brandlogo{
+    top: calc(100% - 200px);
+    left: calc(100% - 110px) !important;
+
+  }
+
 }
 
 .map iframe {
@@ -457,7 +470,7 @@ a:hover, a:focus, a:active {
 #brandlogo{
   position: absolute;
   top: calc(100% - 200px);
-  left: calc(100% - 200px);
+  left: calc(100% - 160px);
   opacity: 0.6;
   z-index: 100;
 }
