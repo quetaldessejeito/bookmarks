@@ -461,3 +461,8 @@ a:hover, a:focus, a:active {
   opacity: 0.6;
   z-index: 100;
 }
+
+.img-fluid{
+  background-color: transparent !important;
+  border: none;
+}
